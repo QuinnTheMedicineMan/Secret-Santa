@@ -54,7 +54,7 @@ def main(argv):
             print key + " -> " + santas[key]
         else:
             outputFile = open(key + ".txt", 'w')    # Otherwise put the info in .txt files and don't look at them
-            outputFile.write(key + " you should buy a present for " + santas[key] + ".")
+            outputFile.write(key + ", you should buy a present for " + santas[key] + ".")
             outputFile.close()
 
 if __name__ == "__main__":
